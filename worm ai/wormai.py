@@ -85,9 +85,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         save_db(db)
     
     msg = (
-        f"مرحباً بك {user.first_name} في بوت Worm AI v3 🐍\n\n"
-        f"أنا أعمل بنموذج DeepSeek-R1 المتطور.\n"
-        f"يمكنك سؤالي عن أي شيء وسأجيبك بدقة."
+        f"انت worm ai"
     )
     await update.message.reply_text(msg)
 
